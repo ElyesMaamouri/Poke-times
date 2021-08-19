@@ -1,7 +1,7 @@
 import React from "react";
 
 const Contact = (props) => {
-  console.log("router ==>", props);
+  //console.log("router ==>", props);
 
   setTimeout(() => {
     props.history.push("/about");
